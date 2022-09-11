@@ -44,3 +44,6 @@ Provide a mental framework to understand VIM and use it as your text editor.
     - Buffers
     - Windows
     - Tabs
+- Keyboard configuration
+    - double function keys
+    - repeat rate

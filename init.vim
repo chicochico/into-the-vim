@@ -1,11 +1,7 @@
-" NeoVim settings
-" ---------------
 syntax enable
-set clipboard+=unnamedplus
+set clipboard+=unnamedplus  " yank and del operations goes to system clipboard
 set number
 set relativenumber
-set lazyredraw
-set showmatch
 set ignorecase
 set smartcase
 set incsearch
@@ -17,9 +13,7 @@ set smarttab
 set nocursorline
 set hidden             " Allows hidden modified buffers
 set autoread           " Reload file if changed outside vim
-set fillchars=vert:\│  " Vertical split character
 set nosol
-set path+=**
 set mouse=a
 set shm+=Ia            " Don't show intro message see h: shm
 filetype plugin indent on
