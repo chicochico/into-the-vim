@@ -6,7 +6,6 @@ set number                  " show line numbers
 set relativenumber          " use relative numbers
 set nocursorline
 set hidden                  " Allows hidden modified buffers
-set autoread                " Reload file if changed outside vim
 set mouse=a
 set shm+=Ia                 " Don't show intro message see h: shm
 filetype plugin indent on   " :h filetype-overview
@@ -26,7 +25,6 @@ set smarttab
 
 " Keymaps
 " -------
-
 " leader key
 nmap <space> <leader>
 
